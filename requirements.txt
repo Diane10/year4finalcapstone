@@ -5,3 +5,10 @@ matplotlib>=1.4.3
 pandas>=0.19
 tensorflow-cpu
 streamlit
+tensorflow
+PILLOW
+numpy
+seaborn
+nlp
+sumy
+textblob
