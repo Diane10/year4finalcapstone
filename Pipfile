@@ -1,14 +1,25 @@
-numpy
-scipy>=0.15.1
-scikit-learn==0.22.1
-matplotlib>=1.4.3
-pandas>=0.19
-tensorflow-cpu
-streamlit
-tensorflow
-PILLOW
-numpy
-seaborn
-nlp
-sumy
-textblob
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pandas = "*"
+tensorflow="*"
+streamlit = "*"
+seaborn = "*"
+matplotlib = "*"
+sklearn="*"
+scipy="*"
+tensorflow-cpu="*"
+PILLOW="*"
+numpy="*"
+seaborn="*"
+nlp="*"
+sumy="*"
+textblob="*"
+
+[requires]
+python_version = "3.6"
